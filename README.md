@@ -3,9 +3,9 @@ About r-shinycssloaders
 
 Home: https://github.com/andrewsali/shinycssloaders
 
-Package license: GPL-3
+Package license: MIT
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: Automatically show loader animations while a Shiny output is (re)calculating. This is mostly a wrapper around the css-loaders created by Luke Hass <https://github.com/lukehaas/css-loaders>.
 
