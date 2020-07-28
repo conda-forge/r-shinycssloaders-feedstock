@@ -41,11 +41,12 @@ test:
 
 about:
   home: https://github.com/andrewsali/shinycssloaders
-  license: GPL-3
+  license: MIT
   summary: Automatically show loader animations while a Shiny output is (re)calculating. This is mostly a wrapper around the css-loaders created by Luke Hass <https://github.com/lukehaas/css-loaders>.
-  license_family: GPL3
+  license_family: MIT
   license_file:
-    - {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3
+    - {{ environ["PREFIX"] }}/lib/R/share/licenses/MIT
+    - LICENSE
 
 extra:
   recipe-maintainers:
