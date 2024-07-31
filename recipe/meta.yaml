@@ -1,4 +1,4 @@
-{% set version = "1.0.0" %}
+{% set version = "1.1.0" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/shinycssloaders_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/shinycssloaders/shinycssloaders_{{ version }}.tar.gz
-  sha256: 744641836a4cede2bb47caff1b600bff2c3e450dfccd2af4fab0413a8ea87d64
+  sha256: 038ad76024e6b38dcc9bbe22aa07a58034bc8410ad25329bdc4db42203e2ef70
 
 build:
-  number: 3
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
